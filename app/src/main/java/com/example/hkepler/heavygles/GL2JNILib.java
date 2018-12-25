@@ -6,8 +6,6 @@ public class GL2JNILib {
         System.loadLibrary("native-lib");
     }
 
-    public native String stringFromJNI();
     public static native void setUpGraphic(int width, int height);
     public static native void renderFrame();
-
 }
